@@ -21,6 +21,12 @@ nav ul {
     text-decoration: none;
     list-style: none;
     gap: 24px;
+
+}
+
+nav h3 {
+
+    /* padding: 50px; */
 }
 
 nav h3 {
@@ -49,7 +55,7 @@ h3 span {
     background-position: center;
     text-align: center;
     color: #fff;
-    padding: 120px 20px; 
+    padding: 120px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,7 +65,7 @@ h3 span {
 }
 
 .input-field {
-    margin-top: 20px; 
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -89,7 +95,7 @@ h3 span {
     line-height: 1.5rem;
     margin-bottom: 30px;
     width: 650px;
-} 
+}
 
 
 .btn-external {
@@ -104,14 +110,14 @@ h3 span {
     gap: 24px
 }
 
-.btn-primary {
+.primary-button {
     /* max-width: 174px; */
     /* height: 52px; */
     padding: 10px 25px;
     border-radius: 20px;
     cursor: pointer;
     border: none;
-    color: rgb(193, 185, 185);
+
     border-radius: 8px;
     border: none;
     gap: 24px;
@@ -176,8 +182,8 @@ main .container-2 {
 .container-2 h3 {
     font-size: 30px;
     font: bold;
-    font-weight: 20px;
-    font-family: 40px;
+
+
     width: 355px;
 }
 
@@ -242,22 +248,155 @@ p .btn-primary {
     color: white;
 }
 
+.content {
+    text-align: center;
+    margin: 50px;
+    font-size: 30px;
+}
+
+.content p {
+    font-size: 20px;
+    width: 642px;
+    height: 62px;
+    margin: auto;
+}
+
+.row {
+    width: 573px;
+    height: 300px;
+    display: flex;
+    gap: 20px;
+}
+
+.row-2 {
+    margin-top: 20px;
+    gap: 20px;
+    display: flex;
+}
+
+.row-3 {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.description-content {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.description-content h3 {
+    font-size: 40px;
+}
+
+.description-content p {
+    font-size: 20px;
+    width: 643px;
+    margin: auto;
+}
+
+.row-4 img {
+    width: 64px;
+
+}
+
+.row-4 h3 {
+    width: 221px;
+}
+
+.row-4 p {
+    width: 486px;
+}
+
+.row-4 {
+    background-color: #f7f0e5;
+    width: 563px;
+    height: 284px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.row-5 img {
+    width: 64px;
+}
+
+.row-5 h3 {
+    width: 221px;
+
+}
+
+.row-5 p {
+    width: 486px;
+}
+
+.row-5 {
+    background-color: #f7f0e5;
+    width: 563px;
+    height: 284px;
+    /* margin-top: 100px; */
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.row-bundle {
+    display: flex;
+    gap: 20px;
+}
+
+.row-6-bundle {
+    width: 573px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.row-6 img {
+    width: 64px;
+}
+
+.row-6 h3 {
+    width: 221px;
+
+}
+
+.row-6 p {
+    width: 486px;
+}
+
+.row-6 {
+    background-color: #f7f0e5;
+    width: 563px;
+    height: 284px;
+    /* margin-top: 100px; */
+    border-radius: 4px;
+    text-align: center;
+}
+
+.row-6-bundle {
+    display: flex;
+    gap: 20px;
+}
+
 /* media query */
 @media screen and (max-width:576px) {
 
-main {
-    width: auto;
-}
+    main {
+        width: auto;
+        margin: auto;
+    }
+
     .container-3-banner {
         display: none;
     }
+/*BANNER SECTION RESPONSIVE */
     .banner {
         padding: 40px 20px;
     }
 
     .banner-title {
-        font-size: 1.3rem; 
-        margin-bottom: 1rem; 
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
     }
 
     .banner-description {
@@ -270,24 +409,23 @@ main {
         width: 100%;
         margin: 0 0 10px 0;
     }
-    .primary-button{
+
+    .primary-button {
         width: 100%;
     }
 
     .banner-content {
         flex-direction: column;
     }
-    .background{
 
-    }
     .banner-container {
         width: auto;
         height: auto;
     }
 
     .banner-content h3 {
-        width: 200px;
-        font-size: 20px;
+        width: auto;
+        font-size: 30px;
     }
 
     .button {
@@ -298,10 +436,7 @@ main {
         background-color: none;
     }
 
-    div .button {
-        background-color: background-color: rgba(250, 247, 247, 0.339);
-        ;
-    }
+
 
     header ul {
         display: none;
@@ -317,5 +452,29 @@ main {
         margin-bottom: 200px;
     }
 
+    .container-2-img {
+        width: auto;
+        margin: auto;
+    }
+
+    .container-2-content {
+        width: auto;
+        margin: auto;
+        padding: 20px;
+        margin-bottom: 50px;
+
+    }
+
+    .container-2-content p {
+        width: 400px;
+
+    }
+
+
+    header {
+        max-width: auto;
+        margin: auto;
+        height: none;
+    }
 
 }
