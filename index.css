@@ -433,9 +433,48 @@ p .btn-primary {
     padding-right: 122px;
     padding-left: 122px;
 }
- 
-   
 
+ .horizental {
+    border-bottom: 1px solid rgb(198, 190, 190);
+    width: 70%;
+    margin: auto;
+ }
+ footer{
+    background-color: #c3bebe;
+    height: 300px;
+    padding-top: -300px;
+    margin-top: 100px;
+}
+footer div {
+    color: #f3f2f2;
+    text-align: center;
+}
+footer img {
+   padding-top: 20px;
+   justify-content: space-between;
+}
+.plane {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.plane h3 {
+margin-top: 45px;
+padding: 10px;
+color: beige;
+
+}
+.plane-2 p{
+width: 770px;
+margin: auto;
+}
+.plane-3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 50px
+    ;
+}
 /* media query */
 @media screen and (max-width:576px) {
 
